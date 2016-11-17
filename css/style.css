@@ -66,8 +66,8 @@ header p{
 
 .logo {
     float: left;
-    text-align: right;
-    width: 54%;
+    text-align: left;
+    width: 100%;
 }
 .logo a:link, a:visited { 
     color: #fff;
@@ -615,7 +615,7 @@ a {transition: .25s all;}
     left: 10px;
     right: 10px;
 	background: #333333;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.8);
 	opacity: 0;
 	-webkit-transition: all 0.8s ease-in-out;
 	-moz-transition: all 0.8s ease-in-out;
@@ -690,6 +690,11 @@ a {transition: .25s all;}
     color: #fff;
     margin-top: 1em;
 	font-weight: 400;
+}
+
+.video iframe{
+	width: 560px;
+	height: 315px;
 }
 /*-- //products --*/
 /*-- gallery --*/ 
@@ -1047,10 +1052,7 @@ h3.agileits-title {
 .services, .about, .gallery, .team, .work, .contact {
     padding: 4em 0;
 }
-.ih-item.circle, .ih-item.circle .img, .ih-item.circle.effect1 .spinner {
-    width: 160px;
-    height: 160px; 
-}
+
 .ih-item.circle.effect1 .info h4 { 
     padding: 2.6em 0 .5em;
 }
@@ -1276,10 +1278,7 @@ h3.agileits-title {
 .social-icons.team-icons {
     left: 21%; 
 }
-.ih-item.circle, .ih-item.circle .img, .ih-item.circle.effect1 .spinner {
-    width: 140px;
-    height: 140px;
-}
+
 .ih-item.circle.effect1 .img { 
     top: 10px;
     bottom: 10px;
@@ -1393,6 +1392,10 @@ i#jzBoxClose {
 .map iframe {
     min-height: 190px;
 }
+.video iframe{
+	width: 440px;
+	height: 240px;
+}
 .view-caption { 
     padding: 0.5em;  
 } 
@@ -1406,6 +1409,10 @@ i#jzBoxClose {
     width: 25px; 
 	background-position:-1px -1px;
 	margin-right: 0.2em;
+}
+.video iframe{
+	width: 350px;
+	height: 190px;
 }
 .logo h1 {
     font-size: 2.4em; 

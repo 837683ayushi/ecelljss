@@ -79,7 +79,7 @@
 }
 .logo{
     font-size: 35px;
-    padding: 25px 50px;
+    padding: 25px 0px 25px 25px;
 
 }
 .icon-list {
@@ -174,7 +174,7 @@
 		left: 6%;
 	}
 	.icon-list {
-		padding: 1.2em 5em 0.9em;
+		padding: 1.2em 5em 0.9em 0em;
 	}
 }
 @media(max-width:1024px){
@@ -232,6 +232,12 @@
 } 
 .show-menu .menu-wrap {
     height: 68px;
+}
+.logo {
+    padding: 6px 30px;
+}
+.logo a span{
+    display: none;
 }
 .icon-list a span { 
     display: none;
